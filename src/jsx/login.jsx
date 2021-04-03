@@ -15,12 +15,13 @@ export default function Login() {
         <div className="contents">
           <div className="left-side"></div>
           <div className="right-side">
-          <h3 className="title">Please Login to proceed.</h3>
+          <h3 className="title">Please Login to continue.</h3>
           <form action="" method="get">
               <p className="lebel">Email | Username</p>
               <input type="text" name="username" id="username" className="input-box" />
               <p className="lebel">Password</p>
-              <input type="password" name="password" id="password" className="input-box" />
+              <input type="password" name="password" id="password" className="input-box" /><br/>
+              <button type="submit" className="login-btn" >Login</button>
           </form>
           </div>
         </div>
