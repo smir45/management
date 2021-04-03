@@ -52,7 +52,6 @@
     text-align: center;
     margin: auto;
     color: #3B322C;
-    font-weight: 300;
 }
 
 .input-box{
@@ -65,6 +64,20 @@
     background: #fff;
 }
 
+.input-box:hover{
+    box-shadow: inset 0 0 5px rgba(94, 140, 97, .3);
+
+}
+.input-box:focus{
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+
+}
+.lebel{
+
+    font-weight: 200;
+    color: #3B322C;
+}
+
 form{
     padding: 15px;
     width: fit-content;
@@ -75,7 +88,9 @@ form{
     padding: 10px;
     min-width: 150px;
     max-width: 150px;
-    margin: 20px auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     border: 1px solid #538C61;
     background: #538C61;
